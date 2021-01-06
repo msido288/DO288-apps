@@ -4,8 +4,8 @@ FROM quay.io/redhattraining/httpd-parent
 EXPOSE 8080
 
 LABEL 	io.openshift.expose-services="8080:http" \
-	io.k8s.description"Basic child image with ONBUILD" \
-	io.k8s.display-name"HTTP" \
+	io.k8s.description="Basic child image with ONBUILD" \
+	io.k8s.display-name="HTTP" \
 	io.openshift.expose-services="8080:http" \
 	io.openshift.tag="apache, httpd"
 
